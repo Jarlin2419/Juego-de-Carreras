@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Evita barras de desplazamiento */
+    background-color: grey; /* Color de fondo general */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Asegura que el canvas ocupe toda la altura de la ventana */
+}
+
+#juego {
+    background-color: darkgreen; /* Color de la pista */
+    display: block; /* Asegura que el canvas se comporte como un elemento de bloque */
+}
